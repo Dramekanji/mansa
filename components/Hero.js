@@ -10,7 +10,7 @@ const Hero = ({ heading, message }) => {
         <p className="py-5 text-xl font-semibold">{message}</p>
         <div className="text-center">
           {" "}
-          <button className="px-8 py-2 border font-semibold text-white hover:text-yellow-500 hover:bg-black ease-in duration-300 ">
+          <button className="px-8 py-2 border font-semibold text-white hover:bg-yellow-500 hover:text-black ease-in duration-300 ">
             Hire Us
           </button>
         </div>
