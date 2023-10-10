@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Hero = ({ heading, message }) => {
@@ -10,9 +11,11 @@ const Hero = ({ heading, message }) => {
         <p className="py-5 text-xl font-semibold">{message}</p>
         <div className="text-center">
           {" "}
-          <button className="px-8 py-2 border font-semibold text-white hover:bg-yellow-500 hover:text-black ease-in duration-300 ">
-            Hire Us
-          </button>
+          <Link href="/Contact">
+            <button className="px-8 py-2 border font-semibold text-white hover:bg-yellow-500 hover:text-black ease-in duration-300 ">
+              Hire Us
+            </button>
+          </Link>
         </div>
       </div>
     </div>

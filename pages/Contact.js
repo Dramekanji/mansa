@@ -9,23 +9,23 @@ const Contact = () => {
       <form className="max-w-[640px] m-auto">
         <div className="grid grid-cols-2 gap-2">
           <input
-            className="border shadow-lg p-3"
+            className="border shadow-lg p-3  text-black"
             type="text"
             placeholder="Name"
           />
           <input
-            className="border shadow-lg p-3"
+            className="border shadow-lg p-3  text-black"
             type="email"
             placeholder="Email"
           />
         </div>
         <input
-          className="border shadow-lg p-3 w-full my-4"
+          className="border shadow-lg p-3 w-full my-4  text-black"
           type="text"
           placeholder="Subject"
         />
         <textarea
-          className="border shadow-lg p-3 w-full"
+          className="border shadow-lg p-3 w-full  text-black"
           cols="30"
           rows="10"
           placeholder="Message"
