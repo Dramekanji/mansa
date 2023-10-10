@@ -1,3 +1,4 @@
+import Image from "next/image";
 import image2 from "../public/images/pt-still-2.png";
 import image3 from "../public/images/pt-still-3.png";
 import image4 from "../public/images/pt-still-4.png";
