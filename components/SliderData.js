@@ -5,9 +5,9 @@ import image5 from "../public/images/pt-still-5.png";
 import image6 from "../public/images/ghs2-still-1.png";
 
 export const SliderData = [
-  { image: image2 },
-  { image: image3 },
-  { image: image4 },
-  { image: image5 },
-  { image: image6 },
+  { image: <Image src={image2} alt="Image 2" width={width} height={height} /> },
+  { image: <Image src={image3} alt="Image 3" width={width} height={height} /> },
+  { image: <Image src={image4} alt="Image 4" width={width} height={height} /> },
+  { image: <Image src={image5} alt="Image 5" width={width} height={height} /> },
+  { image: <Image src={image6} alt="Image 6" width={width} height={height} /> },
 ];
