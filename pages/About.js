@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
           {/* Director 1 */}
           <div className="w-1/2 p-2 relative">
             <div className="group">
-              <img
+              <Image
                 src="/images/Momo.jpg"
                 alt="Momo"
                 className="w-150 h-150 rounded-lg"
@@ -38,10 +39,10 @@ const About = () => {
                       Baccalaureate High School in 2004. He has since been
                       featured in plays, TV shows, commercials, music videos,
                       student films, independent films, and feature films. Some
-                      of his credits are "Law & Order: Criminal Intent", "Across
-                      the Universe", "Notorious", the upcoming "Restless City"
-                      premiering at the 2011 Sundance Film Festival and several
-                      commercials. He is a graduate of the All Stars
+                      of his credits are "Law and Order: Criminal Intent",
+                      "Across the Universe", "Notorious", the upcoming "Restless
+                      City" premiering at the 2011 Sundance Film Festival and
+                      several commercials. He is a graduate of the All Stars
                       Project/Youth Onstage/Castillo Theater youth development
                       acting programs. Momo was a member of the original cast
                       and co-author of the All Stars Projects' original
@@ -68,7 +69,7 @@ const About = () => {
           {/* Director 2 */}
           <div className="w-1/2 p-2 relative">
             <div className="group">
-              <img
+              <Image
                 src="/images/Tejay.jpg"
                 alt="Tejay"
                 className="w-150 h-150 rounded-lg"
@@ -83,9 +84,9 @@ const About = () => {
                       from the University of Missouri with a degree in Business.
                       He moved to California to pursue his true passion and
                       become an actor. He has appeared on the Tracey Ullman
-                      show, State of the Union, Tim & Eric Awesome Show and has
-                      also performed at the Hollywood Fringe Festival, Nesona
-                      Play Reading Festival and many plays around the Los
+                      show, State of the Union, Tim and Eric Awesome Show and
+                      has also performed at the Hollywood Fringe Festival,
+                      Nesona Play Reading Festival and many plays around the Los
                       Angeles areas and still continues. He is the Co-Founder of
                       Mansa Nzinga Productions LLC. He also studied with the
                       Robey Theatre Company., founded by Danny Glover and Ben
