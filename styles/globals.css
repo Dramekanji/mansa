@@ -15,7 +15,7 @@ body {
 .custom-img {
   background-image: url("../public/images/mansa-nzinga-transparent.png");
   background-color: black;
-  background-size: 80%; /* Adjust this value as needed */
+  background-size: 100%; /* Adjust this value as needed */
   background-repeat: no-repeat;
   background-position: center;
 }
