@@ -12,14 +12,24 @@ body {
   padding: 0;
 }
 
-.custom-img {
+/* .custom-img {
   background-image: url("../public/images/mansa-nzinga-transparent.png");
   background-color: black;
-  background-size: 100%; /* Adjust this value as needed */
+  background-size: 100%; 
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 50px;
+} */
+
+.custom-img {
+  position: relative;
+  background-image: url("/images/mansa-nzinga-transparent.png"); /* Adjust path if needed */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* This ensures that .custom-img takes up at least the full viewport height */
 }
+
 .custom-img::before {
   content: "";
   position: absolute;
@@ -36,11 +46,11 @@ body {
   z-index: 1;
 }
 
-/* Ensure the content of .custom-img is above the overlay */
 .custom-img * {
   position: relative;
   z-index: 2;
 }
+
 /* Mobile styles */
 @media (max-width: 767px) {
   .custom-img {
@@ -48,6 +58,7 @@ body {
     background-size: cover; /* or any other appropriate value */
     background-position: center center;
     background-repeat: no-repeat;
+    min-height: 100vh;
   }
 
   .custom-img::before {
