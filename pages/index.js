@@ -11,13 +11,19 @@ export default function Home() {
       <Head>
         <title>Mansa Nzinga Productions</title>
         <meta name="description" content="Powered by kanjī."></meta>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="favicon-32x32.png" />
       </Head>
       <Hero
         heading="Mansa Nzinga Productions"
-        message="Dedicated to authentic storytelling across film, television and digital platforms. 
-
-        Unveiling African stories where experiences meet cinema, and culture finds a voice."
+        message={
+          <>
+            Dedicated to authentic storytelling across film, television, and
+            digital platforms.
+            <br />
+            Unveiling African stories where experiences meet cinema, and culture
+            finds a voice.
+          </>
+        }
       />
       {/* <Slider slides={SliderData} /> */}
       <Instagram />
