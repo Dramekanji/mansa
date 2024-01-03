@@ -18,7 +18,9 @@ const Work = () => {
               frameBorder="0"
               allowFullScreen
             ></iframe>
-            <h2 className="text-lg font-semibold mt-2">{WorkData.title}</h2>
+            <h2 className="text-lg font-semibold mt-2 text-black">
+              {WorkData.title}
+            </h2>
             <p className="text-gray-600">{WorkData.description}</p>
             <p className="text-gray-600">{WorkData.releaseYear}</p>
           </div>
