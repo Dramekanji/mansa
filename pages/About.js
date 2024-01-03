@@ -4,15 +4,15 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="about-page-bg">
-      <div className="container mx-auto p-4 mt-40">
+      <div className=" mx-auto p-4 mt-40">
         <h1 className="text-3xl font-semibold mb-4 text-white text-center uppercase">
-          Meet the Directors
+          Filmmakers
         </h1>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap justify-center">
           {/* Director 1 */}
-          <div className="w-1/2 p-2 relative">
+          <div className=" p-2 relative mb-8">
             <div className="group">
-              <Image
+              <img
                 src="/images/Momo.jpg"
                 alt="Momo"
                 className="w-150 h-150 rounded-lg"
@@ -67,12 +67,12 @@ const About = () => {
           </div>
 
           {/* Director 2 */}
-          <div className="w-1/2 p-2 relative">
+          <div className="p-2 relative">
             <div className="group">
-              <Image
+              <img
                 src="/images/Tejay.jpg"
                 alt="Tejay"
-                className="w-150 h-150 rounded-lg"
+                className="w-250 h-150 rounded-lg"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white ">
                 <div className="flex flex-col justify-center items-center h-full overflow-y-auto p-4">

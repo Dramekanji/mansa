@@ -48,6 +48,9 @@ const Navbar = () => {
             <Link href="/Work">Work</Link>
           </li>
           <li className="p-4 font-bold uppercase hover:text-yellow-500 ease-in duration-300">
+            <Link href="/Gallery">Gallery</Link>
+          </li>
+          <li className="p-4 font-bold uppercase hover:text-yellow-500 ease-in duration-300">
             <Link href="/About">About</Link>
           </li>
           <li className="p-4 font-bold uppercase hover:text-yellow-500 ease-in duration-300">
@@ -83,6 +86,12 @@ const Navbar = () => {
               className="p-4 text-4xl hover:text-yellow-500 ease-in duration-300"
             >
               <Link href="/Work">Work</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-yellow-500 ease-in duration-300"
+            >
+              <Link href="/Gallery">Gallery</Link>
             </li>
             <li
               onClick={handleNav}
