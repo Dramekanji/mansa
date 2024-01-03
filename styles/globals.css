@@ -18,6 +18,16 @@ body {
   background-size: 100%; /* Adjust this value as needed */
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 50px;
+}
+/* Mobile styles */
+@media (max-width: 767px) {
+  .custom-img {
+    background-image: url("/images/mansa-nzinga-transparent.png"); /* Adjust path if needed */
+    background-size: cover; /* or any other appropriate value */
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
 }
 
 .work-page-bg {
