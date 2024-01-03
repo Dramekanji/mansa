@@ -12,15 +12,6 @@ body {
   padding: 0;
 }
 
-/* .custom-img {
-  background-image: url("../public/images/mansa-nzinga-transparent.png");
-  background-color: black;
-  background-size: 100%; 
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 50px;
-} */
-
 .custom-img {
   position: relative;
   background-image: url("/images/mansa-nzinga-transparent.png"); /* Adjust path if needed */

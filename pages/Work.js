@@ -22,7 +22,7 @@ const Work = () => {
               {WorkData.title}
             </h2>
             <p className="text-gray-600">{WorkData.description}</p>
-            <p className="text-gray-600">{WorkData.releaseYear}</p>
+            <p className="text-gray-600">Year: {WorkData.releaseYear}</p>
           </div>
         ))}
       </div>
