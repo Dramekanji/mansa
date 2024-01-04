@@ -21,7 +21,7 @@ const About = () => {
                 <div className="flex flex-col justify-center items-center h-full overflow-y-auto p-4 ">
                   <p className="text-2xl text-center mt-2">Momo Dione</p>
                   <div className="sm:overflow-container mt-90">
-                    <p className="text-center ">
+                    <p className="text-center text-sm ">
                       Momo Dione was born in Riyadh, Saudi Arabia. He is of
                       Guinean and Senegalese descent. His father is a Guinean
                       diplomat and his mother is an entrepreneur specializing in
