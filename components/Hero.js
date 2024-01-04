@@ -7,7 +7,7 @@ const Hero = ({ heading, message }) => {
       {/* Overlay*/}
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/60 z-[2]" />
       <div className="p-5 text-white z-[2]  mt-[-10rem]">
-        <h2 className="text-5xl font-bold text-center">{heading}</h2>
+        <h2 className="text-5xl font-bold text-center mt-20">{heading}</h2>
         <p className="py-5 text-xl font-semibold">{message}</p>
         {/* <div className="text-center">
           {" "}
