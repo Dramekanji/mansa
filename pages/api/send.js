@@ -8,8 +8,8 @@ export default async (req, res) => {
     const { name, email, subject, message } = req.body;
 
     const content = {
-      to: "dramekanjii@gmail.com",
-      from: "dramekanjii@gmail.com", // Use a verified sender email in your SendGrid account
+      to: "mansanzingaproductions@gmail.com",
+      from: "mansanzingaproductions@gmail.com", // Use a verified sender email in your SendGrid account
       replyTo: email,
       subject: `New Message From ${name}: ${subject}`,
       text: message,
