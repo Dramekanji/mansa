@@ -29,7 +29,7 @@ const WorkData = [
   },
   {
     id: 5,
-    title: "Momo Dione: Going Home Season 2 | Conakry, Republic of Guinea",
+    title: "Momo Dione: Going Home Season 1 | Conakry, Republic of Guinea",
     videoUrl: "https://www.youtube.com/embed/BPN8aEMX39M?si=63-HNnjqkKeLyozC",
     description: "Director: Momo Dione",
     releaseYear: 2018,
