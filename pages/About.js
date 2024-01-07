@@ -19,7 +19,7 @@ const About = () => {
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white p-4 overflow-y-auto">
                 <h2 className="text-2xl text-center">Momo Dione</h2>
-                <p className="text-center mt-4 text-[12px] md:text-lg">
+                <p className="text-center mt-2 text-[16px] md:text-lg">
                   Momo Dione was born in Saudi Arabia. He is of Guinean and
                   Senegalese descent. He has been featured in plays, TV shows,
                   commercials, music videos, student films, independent films,
@@ -52,7 +52,7 @@ const About = () => {
                 <div className="flex flex-col justify-center items-center h-full overflow-y-auto p-4">
                   <p className="text-2xl text-center mt-2">Tejay Bah</p>
                   <div className="sm:overflow-container">
-                    <p className="text-center mt-4 text-[12px] md:text-lg">
+                    <p className="text-center mt-2 text-[16px] md:text-lg">
                       Tejay Bah is a Sierra Leonean/American, Stage/Film Actor,
                       writer and director who was born in Freetown, Sierra
                       Leone. He graduated from the University of Missouri with a
