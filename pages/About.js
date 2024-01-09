@@ -50,7 +50,9 @@ const About = () => {
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white ">
                 <div className="flex flex-col justify-center items-center h-full overflow-y-auto p-4">
-                  <p className="text-2xl text-center mt-2">Tejay Bah</p>
+                  <p className="text-2xl text-center mt-2 md:mt-28">
+                    Tejay Bah
+                  </p>
                   <div className="sm:overflow-container">
                     <p className="text-center mt-2 text-[16px] md:text-lg">
                       Tejay Bah is a Sierra Leonean/American, Stage/Film Actor,
