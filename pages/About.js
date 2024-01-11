@@ -13,9 +13,9 @@ const About = () => {
           <div className="p-2 relative mb-8">
             <div className="group">
               <img
-                src="/images/Momo.jpg"
+                src="/images/Momo.jpeg"
                 alt="Momo"
-                className="w-full h-full rounded-lg"
+                className="w-250 h-150 rounded-lg"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white p-4 overflow-y-auto">
                 <h2 className="text-2xl text-center">Momo Dione</h2>
@@ -44,7 +44,7 @@ const About = () => {
           <div className="p-2 relative">
             <div className="group">
               <img
-                src="/images/Tejay.jpg"
+                src="/images/Tejay.jpeg"
                 alt="Tejay"
                 className="w-250 h-150 rounded-lg"
               />
