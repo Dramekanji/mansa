@@ -24,17 +24,17 @@ const About = () => {
                   Senegalese descent. He has been featured in plays, TV shows,
                   commercials, music videos, student films, independent films,
                   and feature films. His award winning short film “Maffé
-                  Tiga”(Peanut Butter Stew) has screened a screened at festivals
-                  and on television all over the world. The film was nominated
-                  for an Africa Movie Academy Award in 2012. He is also the
-                  Co-Founder of Mansa Nzinga Productions. He has starred in
-                  feature film projects including: Rahman Oladigbolu’s
-                  Boston-set “Theory of Conflict” and Gahite Fofana’s Guinea-set
-                  “ La Lune est Tombee” (The Moon has Fallen). His travel
-                  documentary series "Momo Dione: Going Home," explores the
-                  goals, struggles and accomplishents of African immigrants who
-                  have returned home and seek to reestablish their roots after
-                  enduring displacement-for better or worse.
+                  Tiga”(Peanut Butter Stew) has screened at festivals and on
+                  television all over the world. The film was nominated for an
+                  Africa Movie Academy Award in 2012. He is also the Co-Founder
+                  of Mansa Nzinga Productions. He has starred in feature film
+                  projects including: Rahman Oladigbolu’s Boston-set “Theory of
+                  Conflict” and Gahite Fofana’s Guinea-set “La Lune est Tombée”
+                  (The Moon has Fallen). His travel documentary series "Momo
+                  Dione: Going Home," explores the goals, struggles and
+                  accomplishents of African immigrants who have returned home
+                  and seek to reestablish their roots after enduring
+                  displacement-for better or worse.
                 </p>
               </div>
             </div>
