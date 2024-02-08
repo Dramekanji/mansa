@@ -9,7 +9,7 @@ import Custom404 from "./Custom404";
 export default function Home() {
   return (
     <div>
-      {/* <Head>
+      <Head>
         <title>Mansa Nzinga Productions</title>
         <meta name="description" content="Powered by kanjī."></meta>
         <link rel="icon" href="favicon-32x32.png" />
@@ -27,8 +27,7 @@ export default function Home() {
         }
       />
 
-      <Instagram /> */}
-      <Custom404 />
+      <Instagram />
     </div>
   );
 }

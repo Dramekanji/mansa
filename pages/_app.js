@@ -5,9 +5,9 @@ import Custom404 from "./Custom404";
 export default function App({ Component, pageProps }) {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Component {...pageProps} /> */}
-      <Custom404 />
+      <Navbar />
+      <Component {...pageProps} />
+      {/* <Custom404 /> */}
     </>
   );
 }
